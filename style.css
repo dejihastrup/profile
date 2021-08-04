@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(53, 53, 53);
+  color: rgb(20, 20, 20);
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 80px;
+}
+
+h2 {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#banner {
+  background-image: linear-gradient( rgba(34, 34, 34, 0.3), rgba(53, 52, 52, 0.3) ), url("images/ice-background.jpg");
+  padding: 125px 0;
+  margin: 350px;
+  margin-top: 30px;
+  margin-bottom: auto;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgb(49, 49, 49);
+}
+
+#banner h1 {
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
+  font-size: 70px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 3px black;
+}
+
+#banner p {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  font-size: 40px;
+  font-weight: 100;
+  opacity: 0.9;
+}
+
+#banner img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 4px, 4px, 20px, black;
+}
+
+#banner a {
+  border-radius: 5%;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: rgb(209, 3, 3);
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#banner a:hover {
+  background-color: rgb(160, 8, 8);
+  text-decoration: none;
+}
+
+.container {
+  margin: 20px;
+}
+
+.card {
+    margin: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: #BDBDBF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(49, 49, 49);
+
+
+}
+
+.card h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.card p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.card a {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+}
+
+.card a:hover {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #E9E9E9;
+}
+
+#contact {
+    margin: 30%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 50px;
+    padding-bottom: 10px;
+    background-color: #BDBDBF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(49, 49, 49);
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+#contact h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+  display: inline;
+  margin: 20px;
+}
+
+#contact i {
+  color: white;
+}
